@@ -24,4 +24,11 @@
 |gamesh|Senior|devops|Read, Write and Update access|
 |siva|TL|devops|Read, Write, Update and Delete access|
 
-- **Create user and add him to devops group**
+- **Create user and add him to devops group.**
+  - **useradd username**
+    -   when we create user, linux will create a group also on the same user name
+        A user in linux will have 1 primary group and 0 or more secondary groups
+u       serid 0 means, it is root user
+  ```
+  useradd ramesh
+  ```
