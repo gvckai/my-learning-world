@@ -24,4 +24,4 @@
 |gamesh|Senior|devops|Read, Write and Update access|
 |siva|TL|devops|Read, Write, Update and Delete access|
 
-- ## Create user and add him to devops group
+- **Create user and add him to devops group**
