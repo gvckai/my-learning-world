@@ -14,3 +14,12 @@
 |Junior|Write access|
 |Senior|Read, Write and Update access|
 |TL|Read, Write, Update and Delete access|
+
+## A group will have role -> Permissions
+
+| User | Role | Group| Permissions|
+|---|---|---|---|
+|ramesh|Trainee|devops|Read only access|
+|suresh|Junior|devops|Write access|
+|gamesh|Senior|devops|Read, Write and Update access|
+|siva|TL|devops|Read, Write, Update and Delete access|
