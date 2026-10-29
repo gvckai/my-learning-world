@@ -38,6 +38,7 @@ u       serid 0 means, it is root user
 - useradd username  -> It is used to create user
 - usermod -g groupname username --> it is used to add primary group to ramesh|
 - **Create User**
+
 ```useradd ramesh
 ```
 **Create primary group**
