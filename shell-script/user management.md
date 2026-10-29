@@ -32,15 +32,15 @@ u       serid 0 means, it is root user
   ```
   useradd ramesh
   ```
-  ```
-cat /etc/passwd
-# it user info
-cat /etc/group -> group info
-#it prints group info 
 
-| cammand  | Discription |
-|---|---|
-|useradd ramesh|It creates ramesh user|
-|usermod -g <groupname> <username>|it is used to add ramesh into primery group|
+-  /etc/passwd -> passwd file contains user infermation
+- /etc/group -> group file contains group information
+- useradd username  -> It is used to create user
+- usermod -g groupname username --> it is used to add primary group to ramesh|
+- **Create User**
+```useradd ramesh
+```
+**Create primary group**
+
 |usermod -aG <secondary group> <user name>| it is used to add secondary group ramesh |
 |passwd ramesh| set passwd to user|
