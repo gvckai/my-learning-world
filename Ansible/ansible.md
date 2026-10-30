@@ -6,7 +6,7 @@
   5. **Homogenous -> works only for specific distro**
   6. **can't store secrets securely**
 
-   ![Ansible Logo](../../My-Note-Book/ansible.svg)
+   ![Ansible Logo](./ansible.svg)
 
 # DTO --> Data Tranfor Objects
 - [] -- **List**
