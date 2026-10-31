@@ -28,7 +28,7 @@
 
 ## Inventory 
 - **inventory means list of items in ansible**
-- **in Linux--> we call commands **
+- **in Linux--> we call commands**
 - **in Ansible --> we call  module/Collection**
 - **ansible adhoc command -> we use in emergency purpose targeting one time simple task**
     - **ansible all -i 172.31.33.29, -e ansible_user=ec2-user -e ansible_password=DevOps321 -m ping**
