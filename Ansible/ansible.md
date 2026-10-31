@@ -8,6 +8,18 @@
 
    ![Ansible Logo](./ansible.svg)
 
+## #configuration
+ - **plain server -> ready to host application**
+     1. installing programming language
+     2. creating system user
+     3. creating app directory
+     4. downloading code
+     5. unzipping code
+     6. installing dependencies
+     7. creating systemctl service files
+     8. loading data if necessary
+     9. starting the server
+
 # DTO --> Data Tranfor Objects
 - [] -- **List**
 - {} --**map/objects**
