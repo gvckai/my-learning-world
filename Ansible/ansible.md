@@ -51,6 +51,7 @@
 - **ansible-inventory -i inventory.ini --graph databas**
 - **ansible-inventory -i inventory.ini --graph backed-server**
 - **ansible-inventory -i inventory.ini --graph frontend-server**
+- **ansible-inventory -i inventory.ini --graph ungrouped**
 
 ![Ansible Logo](./inventrory-graph.JPG)
     - When your inventory is configured correctly, you will see a clean tree structure like this:
