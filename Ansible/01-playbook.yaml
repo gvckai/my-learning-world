@@ -1,4 +1,4 @@
-- name: ping demo
+- name: "ping"
   # Localhost Target ansible server itself
   host: local
   # local -> it will not expect crediancial (user name and password)
