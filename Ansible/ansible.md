@@ -24,7 +24,15 @@
 - **Delete the configuration -> write the script and run it**
  
  ![Ansible Logo](./ansible.svg)
+ 
 
+## Inventory 
+- **inventory means list of items in ansible**
+- **in Linux--> we call commands **
+- **in Ansible --> we call  module/Collection**
+- **ansible adhoc command -> we use in emergency purpose targeting one time simple task**
+    - **ansible all -i 172.31.33.29, -e ansible_user=ec2-user -e ansible_password=DevOps321 -m ping**
+    - **ansible all -i 172.31.33.29, -e ansible_user=ec2-user -e ansible_password=DevOps321 -b -m dnf -a "name=nginx state=installed"**
 # DTO --> Data Tranfor Objects
 - [] -- **List**
 - {} --**map/objects**
