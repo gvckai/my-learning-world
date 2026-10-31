@@ -1,0 +1,39 @@
+- fisrt_name: "Vijayachandra"
+  last_name: "Gummoji"
+  dob: "01-01-1980"
+# - is for list
+  addresses:
+  - type: permanent
+    doorNo: 210
+    street_name: Jawaharnagar
+    city: hyderabad
+    pin_code: 500020
+  - type: temparory
+    doorNo: 210
+    street_name: Jawaharnagar
+    city: hyderabad
+    pin_code: 500020
+  skills:
+    OS: Linux
+    IDE: VsCode
+    CM: Ansible
+
+- fisrt_name: "Vijayachandra"
+  last_name: "Gummoji"
+  dob: "01-01-1980"
+# - is for list
+  addresses:
+  - type: permanent
+    doorNo: 210
+    street_name: Jawaharnagar
+    city: hyderabad
+    pin_code: 500020
+  - type: temparory
+    doorNo: 210
+    street_name: Jawaharnagar
+    city: hyderabad
+    pin_code: 500020
+  skills:
+    OS: Linux
+    IDE: VsCode
+    CM: Ansible
