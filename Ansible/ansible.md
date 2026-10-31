@@ -46,3 +46,7 @@
 
 - **ansible everything is module or collection**
 - **Inventory** --> machines ansible is tracking
+
+- **ansible-inventory -i inventory.ini --graph**
+![Ansible Logo](./inventrory-graph.JPG)
+    - When your inventory is configured correctly, you will see a clean tree structure like this:
