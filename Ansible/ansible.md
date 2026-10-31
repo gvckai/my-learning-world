@@ -8,7 +8,7 @@
 
    ![Ansible Logo](./ansible.svg)
 
-## #configuration
+## Configuration
  - **Plain server -> ready to host application**
      - **Installing programming language**
      - **Creating system user**
@@ -19,6 +19,11 @@
      - **Creating systemctl service files**
      - **Loading data if necessary**
      - **Starting the server**
+
+**CRUD**
+- **Reading the configuration -> what is there inside server**
+- **updating the configuration -> update the script and run it**
+- **Delete the configuration -> write the script and run it**
 
 # DTO --> Data Tranfor Objects
 - [] -- **List**
