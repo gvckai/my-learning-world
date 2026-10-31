@@ -3,4 +3,4 @@
   connection: local
   tasks:
     - name: ping localhost
-      ping: null
+      ping:
