@@ -1,9 +1,6 @@
-- name: "ping"
-  # Localhost Target ansible server itself
-  host: local
-  # local -> it will not expect crediancial (user name and password)
-  connection: local 
-  # in Ansible we can acll taskes or modules or collection are same 
+- name: ping demo
+  hosts: local
+  connection: local
   tasks:
-    - name: ping local host
-      ping:
+  - name: ping local host
+    ping:
