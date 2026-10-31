@@ -6,9 +6,7 @@
   5. **Homogenous -> works only for specific distro**
   6. **can't store secrets securely**
 
-   ![Ansible Logo](./ansible.svg)
-
-## Configuration
+  ## Configuration
  - **Plain server -> ready to host application**
      - **Installing programming language**
      - **Creating system user**
@@ -24,6 +22,8 @@
 - **Reading the configuration -> what is there inside server**
 - **updating the configuration -> update the script and run it**
 - **Delete the configuration -> write the script and run it**
+ 
+ ![Ansible Logo](./ansible.svg)
 
 # DTO --> Data Tranfor Objects
 - [] -- **List**
