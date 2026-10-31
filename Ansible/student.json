@@ -1,0 +1,29 @@
+{
+    "firstname": "Vijayachandra",
+    "lastname": "Gummoji",
+    "dob": "01-01-1980",
+    "address"
+    [
+        {
+            "type" : "permanet",
+            "doorNo" :"1234",
+            "streetName" : "Jawaharnagar",
+            "city" : "Hyderabad"
+
+        },
+        {
+            "type" : "Temporary",
+            "doorNo" :"4321",
+            "streetName" : "Ashock Namgar",
+            "city" : "Secundarabad"
+
+        }
+
+    ]
+    "skills" : {
+        "OS" : "linux and windows",
+        "IDE" : "VsCode",
+        "CM"   : "Ansible"
+    }
+
+}
