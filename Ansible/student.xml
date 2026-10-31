@@ -1,0 +1,10 @@
+<student>
+    <firstname> Vijaychandr </firstname>
+    <lastname>Gummoji</lastname>
+    <dob>1980-01-01</dob>
+    <address>
+        <doorNo>123</doorNo>
+        <streetName>Gandhi nagar</streetName>
+        <city>Hyderabad</city>
+    </address>
+</student>
