@@ -33,8 +33,16 @@
 - **ansible adhoc command -> we use in emergency purpose targeting one time simple task**
     - **ansible all -i 172.31.33.29, -e ansible_user=ec2-user -e ansible_password=DevOps321 -m ping**
     - **ansible all -i 172.31.33.29, -e ansible_user=ec2-user -e ansible_password=DevOps321 -b -m dnf -a "name=nginx state=installed"**
+    - **Repetitive -> we will keep all the modules in a file called playbook. It is YAML based**
+
 # DTO --> Data Tranfor Objects
-- [] -- **List**
-- {} --**map/objects**
+  - **YAML  :-> Yet another markup language**
+  - **HTML  :-> Hyper text markup language**
+  - **XML   :-> Extensive markup language**
+  - **JSON  :-> Java Script object notation**
+
+- **[]** --it indicates in ansible **List**
+- **{}** --it indicates **map/objects**
+
 - **ansible everything is module or collection**
 - **Inventory** --> machines ansible is tracking
