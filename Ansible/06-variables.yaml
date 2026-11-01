@@ -1,9 +1,11 @@
-- name: Print variables playbook
-  hosts: localhost
+- name: demo on variables
+  hosts: local
+  connection: local
   vars:
-    trainee: "DevOps Engineer"  # Define your variable here
-
-  tasks:
-    - name: print variables
-      ansible.builtin.debug:
-        msg: "The current trainee is {{ trainee }}"
+    course: "ansible"
+    trainer: Sivakumar
+    duration: 10 hrs
+  taskes:
+  - name: print variable
+    debug:
+      msg: "hai i am learning {{ course}}"
