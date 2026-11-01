@@ -1,16 +1,10 @@
 ---
-- name: demo on task level varaiable
+- name: demo on task level variable
   hosts: local
   connection: local
   vars:
-    property: 100 acers
+    property: "100 accers"
   tasks:
-  - name: print vars
+  - name: print the variable
     debug:
-      msg: "Vijay have {{ property }} from my father"
-  
-  - name: print task level variable
-    vars:
-      property: "15 accers"
-      debug:
-        msg: "swapna has {{ property }} from her husband"
+      msg: "Vijay has {{ property }} from his father"
