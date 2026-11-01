@@ -2,9 +2,9 @@
   hosts: local
   connecton: local
   vars: 
-    course: "ansible"
-    trainer: "sivakumar"
-    duration: "10 hours"
+    course: ansible
+    trainer: sivakumar
+    duration: 10 hours
   tasks:
   - name: print varaiable
     debug:
