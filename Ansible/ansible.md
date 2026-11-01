@@ -65,6 +65,10 @@
     - **ansible-playbook -i inventory.ini -e ansible_user=ec2-user -e ansible_password=DevOps321 04-nginx.yaml**
 ## How to run play book in local host
  - **ansible-playbook -i inventory.ini 07-task-level-var.yaml**
+
+## How to execute paly book without menction varaiable 
+- **ansible-playbook -i inventory.ini 11-cmd-line-var.yaml -e "person=chandu"**
+
 ## Data Types
  - **Variables**
  - **Dta Types**
