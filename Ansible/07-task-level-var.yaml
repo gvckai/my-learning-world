@@ -1,0 +1,14 @@
+- name: demo on task level varaiable
+  hosts: local
+  connection: local
+  vars:
+    property: 100 acers
+  tasks:
+  - name: print variable
+    debud:
+      msg: "Vijay have {{ property }}"
+  - namw : print tasklevel variable
+    vars:
+      property: 15 accers
+    debug:
+      msg: "swapna has {{ property }}"
