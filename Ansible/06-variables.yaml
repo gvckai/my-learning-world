@@ -1,11 +1,12 @@
-- name: demo on variables
+- name: demo on variabeles
   hosts: local
-  connection: local
-  vars:
+  connecton: local
+  vars: 
     course: "ansible"
-    trainer: "Sivakumar"
+    trainer: "sivakumar"
     duration: "10 hours"
-  taskes:
-  - name: print the variable
+  tasks:
+  - name: print varaiable
     debug:
-      msg: "Hi i am learning {{course}}, from {{trainer}}, duration is {{duration}}"
+      msg: "Hi I am learning {{ course}} from {{trainer}} duration {{ duration }}
+
