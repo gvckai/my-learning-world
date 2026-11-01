@@ -1,0 +1,7 @@
+- name: gather facts
+  hosts: local
+  connection: local
+  tasks:
+  - name: prints the facts
+    debud:
+      msg: "print special variable {{ ansible_facts }}"

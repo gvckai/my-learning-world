@@ -85,7 +85,10 @@
  - **Loops**
  - **Error Handling**
 
- ## Variables
- 
+ ## Variables=facts
+ - we can call facts in ansible 
+ - gather facts -> gather target machine  facts/variables
+ - special variable in **asible_facts**
+ ## Data types
 
 
