@@ -1,4 +1,4 @@
-- namw: variable from inventory
+- name: variable from inventory
   hosts: frontend
   tasks:
   - name: print variables
