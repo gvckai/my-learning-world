@@ -97,8 +97,8 @@
 ## unset environment variable
 - **unset ANSIBLE_CONFIG**
 
-- 1. ANSIBLE_CONFIG env variable
-- 2. Current working directory-> **best option is current working directory**
-- 3. Home directory with .ansible.cfg
-- 4. etc/ansible/ansible.cfg
+- 1. ANSIBLE_CONFIG: **An environment variable pointing directly to a specific file.**
+- 2. ansible.cfg: **Located in your current working directory (best practice for project-specific settings).**
+- 3. ~/.ansible.cfg: **Located in the user's home directory**
+- 4. /etc/ansible/ansible.cfg: **The global, system-wide default file**
 
