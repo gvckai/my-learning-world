@@ -13,5 +13,5 @@
   
   tasks:
   - name: please enter the confidential info....!
-    debud:
+    debug:
       msg: "please enter the username {{ username }}, please enter password {{ password }}"
