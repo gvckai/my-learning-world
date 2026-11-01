@@ -1,5 +1,5 @@
 ---
-- name: demo on 
+- name: demo on variables
   hosts: local
   connection: local
   vars:
@@ -9,4 +9,4 @@
   tasks:
   - name: print variable
     debug:
-      msg: "hai i am learning {{ course}}"
+      msg: "hai i am learning {{ course}} from {{ trainer }} duration {{ duration }}"
