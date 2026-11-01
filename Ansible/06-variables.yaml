@@ -8,5 +8,5 @@
   tasks:
   - name: print varaiable
     debug:
-      msg: "Hi I am learning {{ course}} from {{trainer}} duration {{ duration }}
+      msg: "Hi I am learning {{ course}} from {{ trainer }}, duration {{ duration }}
 
