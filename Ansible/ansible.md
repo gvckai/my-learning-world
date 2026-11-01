@@ -89,6 +89,16 @@
  - we can call facts in ansible 
  - gather facts -> gather target machine  facts/variables
  - special variable in **asible_facts**
- ## Data types
+## Data types
+## ansible configuration
+- default /etc/ansible/ansible.cfg  
+## set environmenr variable
+- **export ANSIBLE_CONFIG=/home/ec2-user/ansible-test/ansible.cfg**
+## unset environment variable
+- **unset ANSIBLE_CONFIG**
 
+- 1. ANSIBLE_CONFIG env variable
+- 2. Current working directory
+- 3. Home directory with .ansible.cfg
+- 4. etc/ansible/ansible.cfg
 
