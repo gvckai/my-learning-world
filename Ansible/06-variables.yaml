@@ -1,6 +1,10 @@
 ---
 - name: demo on variable
   hosts: localhost
+  vars:
+    course: "ansible"
+    triner: "sivakumar"
+    duretion: "12 hourse"
   tasks:
     - name: print variables
       debug:
