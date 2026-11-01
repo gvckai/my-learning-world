@@ -54,7 +54,8 @@
 - **ansible-inventory -i inventory.ini --graph ungrouped**
 
 ![Ansible Logo](./inventrory-graph.JPG)
-    - When your inventory is configured correctly, you will see a clean tree structure like this:
+    
+- When your inventory is configured correctly, you will see a clean tree structure like this:
 
 # How to run ansible playbook
  - **Methede 1**
