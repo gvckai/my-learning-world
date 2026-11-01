@@ -75,6 +75,7 @@
  - 3rd prefarences File
  - 4th prefarence prompt
  - 5th play-book-level
+ - 6th from inventory
 
 ## Data Types
  - **Variables**
