@@ -3,5 +3,5 @@
   connection: local
   tasks:
   - name: prints the facts
-    debud:
+    debug:
       msg: "print special variable {{ ansible_facts }}"
