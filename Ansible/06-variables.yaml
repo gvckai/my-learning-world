@@ -6,7 +6,7 @@
     course: "ansible"
     trainer: Sivakumar
     duration: 10 hrs
-  taskes:
+  tasks:
   - name: print variable
     debug:
       msg: "hai i am learning {{ course}}"
