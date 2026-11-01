@@ -1,0 +1,8 @@
+- name: nginx uninstall
+  hosts: backend
+  become: yes
+  tasks:
+    - name: remove nginx in backend server
+      package:
+        name: nginx
+        state: absent
