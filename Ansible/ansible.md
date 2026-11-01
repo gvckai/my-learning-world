@@ -70,9 +70,10 @@
 - **ansible-playbook -i inventory.ini 11-cmd-line-var.yaml -e "person=chandu"**
 
 ## Variable Prefarences
- -  Firsr prefarence cmd
- - second preference task level
- - third prefarences File
+ - 1st prefarence cmd
+ - 2nd preference task level
+ - 3rd prefarences File
+ - 4th prefarence prompt
  -
 
 ## Data Types
