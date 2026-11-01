@@ -1,0 +1,11 @@
+- name: instal and start nginx
+  host: node2
+  tasks:
+    - name: instaling nginx
+      package: 
+        name: nginx
+        state: present
+    # - name: service starts
+    #   package:
+    #     name: service
+    #     state: started
