@@ -5,8 +5,8 @@
   vars:
     property: 100 acers
   tasks:
-  - name: print variable
-    debud:
+  - name: print vars
+    debug:
       msg: "Vijay have {{ property }}"
   - namw : print tasklevel variable
     vars:
