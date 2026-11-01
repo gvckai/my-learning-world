@@ -63,6 +63,8 @@
     
     **Example** 
     - **ansible-playbook -i inventory.ini -e ansible_user=ec2-user -e ansible_password=DevOps321 04-nginx.yaml**
+## How to run play book in local host
+ - **ansible-playbook -i inventory.ini 07-task-level-var.yaml**
 ## Data Types
  - **Variables**
  - **Dta Types**
