@@ -13,3 +13,14 @@
       property: "10 acers"
     debug:
       msg: "swapna has {{ property }} from her husband"
+  - name: taske level-2
+    vars:
+      propery: "5 acers"
+    debug:
+      msg: "abhiram has {{ property }} from mother"
+
+  - name: task level vars
+    vars:
+      property: "5 acers"
+    debug:
+      msg: "honey has get {{ property }} from her father"
