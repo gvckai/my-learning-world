@@ -1,4 +1,3 @@
----
 - name: demo on variable
   hosts: localhost
   vars:
@@ -8,4 +7,4 @@
   tasks:
     - name: print variables
       debug:
-        msg: "hai i am learning {{course}}, from {{trainee}} duration {{duration}}"
+        msg: "hai i am learning {{course}} from {{trainee}} duration {{duration}}"
