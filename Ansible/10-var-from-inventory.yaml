@@ -1,4 +1,6 @@
 - namw: variable from inventory
   hosts: frontend
-    tasks:
-  - name: inventory variables
+  tasks:
+  - name: print variables
+    debug:
+      msg: " Hi i am learning {{ course }} from {{ trainer }}, it takes duration {{duration}}"
