@@ -1,3 +1,4 @@
+---
 - name: demo on task level varaiable
   hosts: local
   connection: local
