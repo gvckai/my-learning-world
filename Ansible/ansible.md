@@ -63,4 +63,15 @@
     
     **Example** 
     - **ansible-playbook -i inventory.ini -e ansible_user=ec2-user -e ansible_password=DevOps321 04-nginx.yaml**
+## Data Types
+ - **Variables**
+ - **Dta Types**
+ - **Conditions**
+ - **Functions**
+ - **Loops**
+ - **Error Handling**
+
+ ## Variables
+ 
+
 
