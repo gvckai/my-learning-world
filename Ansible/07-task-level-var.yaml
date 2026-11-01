@@ -15,7 +15,7 @@
       msg: "swapna has {{ property }} from her husband"
   - name: taske level-2
     vars:
-      propery: "5 acers"
+      property: "5 acers"
     debug:
       msg: "abhiram has {{ property }} from mother"
 
