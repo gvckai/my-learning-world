@@ -2,7 +2,7 @@
   hosts: frontend
   become: yes
   tasks:
-  - name: installing nginix....!
+  - name: installing nginix
     package:
       name: nginx
       state: present 
