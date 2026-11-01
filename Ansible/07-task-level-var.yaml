@@ -7,9 +7,10 @@
   tasks:
   - name: print vars
     debug:
-      msg: "Vijay have {{ property }}"
-  - namw : print tasklevel variable
+      msg: "Vijay have {{ property }} from my father"
+  
+  - name: print task level variable
     vars:
-      property: 15 accers
-    debug:
-      msg: "swapna has {{ property }}"
+      property: "15 accers"
+      debug:
+        msg: "swapna has {{ property }} from her husband"
