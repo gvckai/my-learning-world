@@ -1,19 +1,17 @@
----
-- name: variable from file
+- name: varaiable from file
   hosts: local
   connection: local
   vars:
-    course: "Ansible from PLAy"
+    course: " Ansible from Play"
+  vars_prompt:
+  - name: course
+    prompt: please enter course
+    private: false
   vars_files:
   - course_vars.yaml
-  var_prompt:
-  - name: username
-    prompt: please enter username
-    private: false
-
   tasks:
-  - name: print the course info
+  - name: print course info
     vars:
-    course: "Ansible from tasklevel "
+      course: "Ansible from task"
     debug:
-    msg: Hi i am learning {{ course} }
+      msg: " i am learning {{ course }}"
