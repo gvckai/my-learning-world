@@ -69,6 +69,11 @@
 ## How to execute paly book without menction varaiable in the file
 - **ansible-playbook -i inventory.ini 11-cmd-line-var.yaml -e "person=chandu"**
 
+## Variable Prefarences
+ -  Firsr prefarence cmd
+ - second preference task level
+ -
+
 ## Data Types
  - **Variables**
  - **Dta Types**
