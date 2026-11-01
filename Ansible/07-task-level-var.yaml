@@ -8,3 +8,8 @@
   - name: print the variable
     debug:
       msg: "Vijay has {{ property }} from his father"
+  - name: task level var print
+    vars:
+      property: "10 acers"
+    debug:
+      msg: "swapna has {{ property }} from her husband"
