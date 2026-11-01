@@ -1,0 +1,17 @@
+- name: dinamik or promtinng variables
+  hosts: local
+  connection: local
+  vars_prompt:
+ 
+  - name: username
+    prompt: please enter the username
+    private: false
+ 
+  - name: password
+    prompt: please enter the password
+    private: true
+  
+  tasks:
+  - name: please enter the confidential info....!
+    debud:
+      msg: "please enter the username {{ username }}, please enter password {{ password }}"
