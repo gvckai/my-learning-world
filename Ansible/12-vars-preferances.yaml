@@ -1,0 +1,19 @@
+---
+- name: variable from file
+  hosts: local
+  connection: local
+  vars:
+    course: Ansible from PLAy1
+  vars_files:
+  - course_vars.yaml
+  var_prompt:
+  - name: username
+    prompt: please enter username
+    private: false
+
+  tasks:
+  - name: print the course info
+  vars:
+    course: "Ansible from tasklevel "
+  debug:
+    msg: Hi i am learning {{ course}}
