@@ -59,6 +59,7 @@
 # How to run ansible playbook
  - **Methede 1**
     - ansible-playbook -i inventory.ini -e ansible_user=ec2-user ansible_password=DevOps321 playbook name
+    
     **Example** 
     - **ansible-playbook -i inventory.ini -e ansible_user=ec2-user -e ansible_password=DevOps321 04-nginx.yaml**
 
