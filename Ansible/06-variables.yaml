@@ -1,5 +1,5 @@
 ---
-- name: demo on variables
+- name: demo on 
   hosts: local
   connection: local
   vars:
