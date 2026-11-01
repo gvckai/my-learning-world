@@ -1,8 +1,8 @@
 - name: varaiable from file
   hosts: local
   connection: local
-  # vars:
-  #   course: " Ansible from Play"
+  vars:
+    course: " Ansible from Play"
   # vars_prompt:
   # - name: course
   #   prompt: please enter course
