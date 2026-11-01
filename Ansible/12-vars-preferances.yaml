@@ -3,7 +3,7 @@
   hosts: local
   connection: local
   vars:
-    course: Ansible from PLAy1
+    course: "Ansible from PLAy"
   vars_files:
   - course_vars.yaml
   var_prompt:
@@ -13,7 +13,7 @@
 
   tasks:
   - name: print the course info
-  vars:
+    vars:
     course: "Ansible from tasklevel "
-  debug:
-    msg: Hi i am learning {{ course}}
+    debug:
+    msg: Hi i am learning {{ course} }
