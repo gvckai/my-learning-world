@@ -98,7 +98,7 @@
 - **unset ANSIBLE_CONFIG**
 
 - 1. ANSIBLE_CONFIG env variable
-- 2. Current working directory
+- 2. Current working directory-> **best option is current working directory**
 - 3. Home directory with .ansible.cfg
 - 4. etc/ansible/ansible.cfg
 
