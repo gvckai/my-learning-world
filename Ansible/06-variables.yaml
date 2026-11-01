@@ -1,3 +1,4 @@
+---
 - name: demo on variables
   hosts: local
   connection: local
